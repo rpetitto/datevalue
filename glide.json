@@ -1,19 +1,18 @@
-{
-  "name": "Numeric Date Value from Date",
-  "description": "This plugin takes a date value and converts it into a number.",
-  "author": "Glide Plugin Generator via Robert Petitto",
-  "inputs": [
-    {
-      "name": "datecolumn",
-      "type": "date-time",
-      "description": "A datetime column"
+[
+  {
+    "kind": "column",
+    "name": "Numeric Date Value from Date",
+    "description": "This plugin takes a date value and converts it into a number.",
+    "author": "Robert Petitto",
+    "params": [
+      {
+        "name": "datecolumn",
+        "displayName": "Date to convert",
+        "type": "date-time"
+      }
+    ],
+    "result": {
+      "type": "number"
     }
-  ],
-  "outputs": [
-    {
-      "name": "datevalue",
-      "type": "number",
-      "description": "Numeric representation of selected datetime"
-    }
-  ]
-}
+  }
+]
