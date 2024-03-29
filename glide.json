@@ -11,7 +11,7 @@
         "type": "date-time"
       },
       {
-        "name": "format",
+        "name": "dateFormat",
         "displayName": "Format",
         "type": "string"
       }
