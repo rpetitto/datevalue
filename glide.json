@@ -11,7 +11,7 @@
         "type": "date-time"
       },
       {
-        "name": "valueType",
+        "name": "format",
         "displayName": "Type of datevalue (month, week, day, hour, minute, second)",
         "type": "string"
       }
