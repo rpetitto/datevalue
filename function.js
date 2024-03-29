@@ -1,6 +1,6 @@
 import { DateTime } from 'luxon';
 
-window.function = function (dateInput, format) {
+window.function = function (dateInput, dateFormat) {
   // Convert the JavaScript date to a Luxon DateTime object
   const dt = DateTime.fromJSDate(dateInput.value);
 
