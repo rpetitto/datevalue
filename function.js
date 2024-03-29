@@ -5,7 +5,7 @@ window.function = function (dateInput, dateFormat) {
 
   // Use the provided format string directly with Luxon's toFormat method
   // Ensure your format string uses Luxon's tokens (e.g., 'yyyy' for year, 'MM' for month, 'dd' for day, etc.)
-  const formattedDate = dt.toFormat(format.value);
+  const formattedDate = dt.toFormat(dateFormat.value);
 
   // Convert the formatted date string to an integer
   return parseInt(formattedDate, 10);
