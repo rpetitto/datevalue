@@ -6,9 +6,14 @@
     "author": "Robert Petitto",
     "params": [
       {
-        "name": "datecolumn",
+        "name": "dateColumn",
         "displayName": "Date to convert",
         "type": "date-time"
+      },
+      {
+        "name": "valueType",
+        "displayName": "Type of datevalue (month, week, day, hour, minute, second)",
+        "type": "string"
       }
     ],
     "result": {
