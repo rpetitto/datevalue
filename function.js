@@ -1,4 +1,5 @@
-var DateTime = luxon.DateTime;
+//var DateTime = luxon.DateTime;
+import { DateTime } from "luxon";
 window.function = function (dateInput, dateFormat) {
   const dt = DateTime.fromJSDate(dateInput.value);
   const formatString = dateFormat.value ?? "";
