@@ -1,17 +1,17 @@
-function generateAvatars(imageURLs) {
-  // Split the input string into an array of URLs
-  const urls = imageURLs.split(',');
+window.function = function (str, start, end) {
+  // For each parameter, its `.value` contains
+  // either its value in the type you've declared,
+  // or it's `undefined`.  This is a good place to
+  // extract the `.value`s and assign default
+  // values.
+  str = str.value ?? "";
+  start = start.value ?? 0;
+  end = end.value;
 
-  // Start the HTML string with a div to contain the avatars
-  let htmlOutput = '<div style="display: flex; flex-direction: row; align-items: center;">';
-
-  // Loop through each URL to generate the HTML for each avatar
-  urls.forEach((url, index) => {
-    htmlOutput += `<img src="${url.trim()}" style="border-radius: 50%; width: 50px; height: 50px; margin-left: ${index > 0 ? '-15px' : '0px'};" />`;
-  });
-
-  // Close the container div
-  htmlOutput += '</div>';
-
-  return htmlOutput;
+  // Your function should return the exact type
+  // you've declared for the `result` in
+  // `glide.json`, or `undefined` if there's an
+  // error or no result can be produced, because a
+  // required input is `undefined`, for example.
+  return str.substring(start, end);
 }
