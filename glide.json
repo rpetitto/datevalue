@@ -6,7 +6,7 @@
     "author": "Robert Petitto",
     "params": [
       {
-        "name": "dateColumn",
+        "name": "dateInput",
         "displayName": "Date to convert",
         "type": "date-time"
       },
